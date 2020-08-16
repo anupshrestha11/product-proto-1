@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+  li {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    color: #fff;
+  }
+}
+@media screen and (min-width: 600px) {
+  li {
+    display: inline-block;
+  }
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import Layout from "./container/Layout/Layout";
 
 function App() {
   return (
     <div>
-      <h3>Anup Shrestha</h3>
+      <Layout />
     </div>
   );
 }
