@@ -1,5 +1,12 @@
 li {
   list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #192a56;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
@@ -9,7 +16,6 @@ li {
     justify-content: center;
     align-items: center;
     margin: 40px 0;
-    color: #fff;
   }
 }
 @media screen and (min-width: 600px) {

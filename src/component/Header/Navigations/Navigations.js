@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation/Navigation";
+import classes from "./Navigations.module.scss";
 
 const Navigations = (props) => {
   const navLinkList = () => {
@@ -8,7 +9,7 @@ const Navigations = (props) => {
     });
   };
 
-  return <ul>{navLinkList()}</ul>;
+  return <ul className="classes">{navLinkList()}</ul>;
 };
 
 export default Navigations;
